@@ -56,9 +56,6 @@ for i,t in enumerate(templates):
     threshold = cv2.resize(threshold, Standard_grid_size)
     t = template(gray, blur, edge, threshold)
 
-
-
-    
     rows.append(threshold)   # This is for debugging your TEMPLATE images
 
 
