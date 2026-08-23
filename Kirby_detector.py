@@ -21,8 +21,20 @@ def Image_folder_processing():
 
     return file_templates
 
-def Image_pattern_scoring():
-    print("")
+
+
+def Image_grayscale_processing(files):
+    grayscale_templates = []
+    for image in files:
+        img_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+    
+
+
+def Image_pattern_scoring(file_types):
+    for file in file_types:
+        pass
+
 
 
 rval = True
